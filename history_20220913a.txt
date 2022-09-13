@@ -1,0 +1,22 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  uname
+    4  man uname
+    5  uname -a
+    6  uname--all
+    7  uname --all
+    8  echo $0
+    9  whoami
+   10  who
+   11  pwd
+   12  ls -l
+   13  ps
+   14  ps -aux
+   15  ps -aux | grep firifox
+   16  ps -aux | grep firefox
+   17  kill 1880
+   18  ps -aux
+   19  histort
+   20  history
+   21  hostory >history_20220913.atxt
+   22  history > history_20220913a.txt
