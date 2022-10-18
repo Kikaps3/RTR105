@@ -1,1 +1,242 @@
+user@epk428-9:~$ mkdir RTR^[[E
+user@epk428-9:~$ mkdir RTR105
+user@epk428-9:~$ pwd
+/home/user
+user@epk428-9:~$ /home/user/RTR105
+bash: /home/user/RTR105: Is a directory
+user@epk428-9:~$ pwd
+/home/user
+user@epk428-9:~$ cd RTR105
+user@epk428-9:~/RTR105$ pwd
+/home/user/RTR105
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ lsa
+
+Command 'lsa' not found, but there are 17 similar ones.
+
+user@epk428-9:~/RTR105$ ls -lt
+total 4
+-rw-r--r-- 1 user user 581 Oct 18 08:42 operations_tests.c
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c:18:18: error: missing terminating > character
+ #include<studio.h
+                  ^
+operations_tests.c:18:9: fatal error: studio.h: No such file or directory
+ #include<studio.h
+         ^
+compilation terminated.
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c:18:18: error: missing terminating > character
+ #include<studio.h
+                  ^
+operations_tests.c:18:9: fatal error: studio.h: No such file or directory
+ #include<studio.h
+         ^
+compilation terminated.
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ y
+y: command not found
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c:18:18: error: missing terminating > character
+ #include<studio.h
+                  ^
+operations_tests.c:18:9: fatal error: studio.h: No such file or directory
+ #include<studio.h
+         ^
+compilation terminated.
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c:18:9: fatal error: studio.h: No such file or directory
+ #include<studio.h>
+         ^~~~~~~~~~
+compilation terminated.
+user@epk428-9:~/RTR105$ nano studio.h
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c:18:9: fatal error: studio.h: No such file or directory
+ #include<studio.h>
+         ^~~~~~~~~~
+compilation terminated.
+user@epk428-9:~/RTR105$ ls
+operations_tests.c  studio.h
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c:18:9: fatal error: studio.h: No such file or directory
+ #include<studio.h>
+         ^~~~~~~~~~
+compilation terminated.
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c:18:9: fatal error: studio.h: No such file or directory
+ #include<studio.h>
+         ^~~~~~~~~~
+compilation terminated.
+user@epk428-9:~/RTR105$ xcode-select --install
+xcode-select: command not found
+user@epk428-9:~/RTR105$ sudo apt-get install libc6-dev
+[sudo] password for user: 
+user is not in the sudoers file.  This incident will be reported.
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c:18:10: fatal error: studio.h: No such file or directory
+ #include <studio.h>
+          ^~~~~~~~~~
+compilation terminated.
+user@epk428-9:~/RTR105$ sudo apt install --reinstall gcc-5.4
+[sudo] password for user: 
+dawdSorry, try again.
+[sudo] password for user: 
+awdfawf
+Sorry, try again.
+[sudo] password for user: 
+
+wfa
+faw
+sudo: 3 incorrect password attempts
+user@epk428-9:~/RTR105$ 
+user@epk428-9:~/RTR105$ wfa
+
+Command 'wfa' not found, did you mean:
+
+  command '2fa' from snap 2fa (1.0.0)
+  command 'efa' from deb libtravel-routing-de-vrr-perl
+  command 'cfa' from deb python-cf
+
+See 'snap info <snapname>' for additional versions.
+
+user@epk428-9:~/RTR105$ faw
+
+Command 'faw' not found, did you mean:
+
+  command 'fw' from deb funnelweb
+  command 'raw' from deb util-linux
+  command 'fai' from deb fai-client
+  command 'paw' from deb paw-common
+  command 'fax' from deb efax
+  command 'fac' from deb fex
+  command 'fab' from deb fabric
+  command 'fal' from deb dnet-progs
+
+Try: apt install <deb name>
+
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc /path
+gcc: error: /path: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c: In function ‘main’:
+operations_tests.c:30:14: error: expected identifier or ‘(’ before numeric constant
+ float f1 = 2,3, f2 = -770.896;
+              ^
+operations_tests.c:31:14: error: invalid suffix "a4" on floating constant
+ double d1 = -5.6a4, d2 = 456.8e-3;
+              ^~~~~
+operations_tests.c:33:52: error: ‘c’ undeclared (first use in this function); did you mean ‘c2’?
+ printf("%d (%ld bytes) * $ d(%ld bytes)",c1,sizeof(c),i,sizeof(i),c*i,sizeof(c*i));
+                                                    ^
+                                                    c2
+operations_tests.c:33:52: note: each undeclared identifier is reported only once for each function it appears in
+operations_tests.c:33:55: error: ‘i’ undeclared (first use in this function)
+ printf("%d (%ld bytes) * $ d(%ld bytes)",c1,sizeof(c),i,sizeof(i),c*i,sizeof(c*i));
+                                                       ^
+operations_tests.c:36:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c: In function ‘main’:
+operations_tests.c:30:15: error: expected identifier or ‘(’ before numeric constant
+ float f1 = 2, 3, f2 = -770.896;
+               ^
+operations_tests.c:31:14: error: invalid suffix "a4" on floating constant
+ double d1 = -5.6a4, d2 = 456.8e-3;
+              ^~~~~
+operations_tests.c:33:52: error: ‘c’ undeclared (first use in this function); did you mean ‘c2’?
+ printf("%d (%ld bytes) * $ d(%ld bytes)",c1,sizeof(c),i,sizeof(i),c*i,sizeof(c*i));
+                                                    ^
+                                                    c2
+operations_tests.c:33:52: note: each undeclared identifier is reported only once for each function it appears in
+operations_tests.c:33:55: error: ‘i’ undeclared (first use in this function)
+ printf("%d (%ld bytes) * $ d(%ld bytes)",c1,sizeof(c),i,sizeof(i),c*i,sizeof(c*i));
+                                                       ^
+operations_tests.c:36:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c: In function ‘main’:
+operations_tests.c:31:14: error: invalid suffix "a4" on floating constant
+ double d1 = -5.6a4, d2 = 456.8e-3;
+              ^~~~~
+operations_tests.c:33:42: error: ‘c’ undeclared (first use in this function); did you mean ‘c2’?
+ printf("%d (%ld bytes) * $ d(%ld bytes)",c*i,sizeof(c*i));
+                                          ^
+                                          c2
+operations_tests.c:33:42: note: each undeclared identifier is reported only once for each function it appears in
+operations_tests.c:33:44: error: ‘i’ undeclared (first use in this function)
+ printf("%d (%ld bytes) * $ d(%ld bytes)",c*i,sizeof(c*i));
+                                            ^
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c: In function ‘main’:
+operations_tests.c:31:14: error: invalid suffix "a4" on floating constant
+ double d1 = -5.6a4, d2 = 456.8e-3;
+              ^~~~~
+operations_tests.c:33:55: error: ‘c’ undeclared (first use in this function); did you mean ‘c2’?
+ printf("%d (%ld bytes) * $ d(%ld bytes)",c1*i1,sizeof(c*i));
+                                                       ^
+                                                       c2
+operations_tests.c:33:55: note: each undeclared identifier is reported only once for each function it appears in
+operations_tests.c:33:57: error: ‘i’ undeclared (first use in this function)
+ printf("%d (%ld bytes) * $ d(%ld bytes)",c1*i1,sizeof(c*i));
+                                                         ^
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c: In function ‘main’:
+operations_tests.c:31:14: error: invalid suffix "a4" on floating constant
+ double d1 = -5.6a4, d2 = 456.8e-3;
+              ^~~~~
+operations_tests.c:33:32: warning: format ‘%ld’ expects a matching ‘long int’ argument [-Wformat=]
+ printf("%d (%ld bytes) * $ d(%ld bytes)",c1*i1,sizeof(c1*i1));
+                              ~~^
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c: In function ‘main’:
+operations_tests.c:31:14: error: invalid suffix "a4" on floating constant
+ double d1 = -5.6a4, d2 = 456.8e-3;
+              ^~~~~
+operations_tests.c:33:32: warning: format ‘%ld’ expects a matching ‘long int’ argument [-Wformat=]
+ printf("%d (%ld bytes) * $ d(%ld bytes)",c1*i1,sizeof(c1*i1));
+                              ~~^
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c: In function ‘main’:
+operations_tests.c:31:14: error: invalid suffix "a4" on floating constant
+ double d1 = -5.6a4, d2 = 456.8e-3;
+              ^~~~~
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+user@epk428-9:~/RTR105$ ./a.out
+65 (1 bytes) * 2000 (4 bytes) = 130000(4 bytes)
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+user@epk428-9:~/RTR105$ ./a.out
+65 (1 bytes) * 2000 (4 bytes) = 130000(4 bytes)
+user@epk428-9:~/RTR105$ nano operations_tests.c
+user@epk428-9:~/RTR105$ gcc operations_tests.c
+operations_tests.c: In function ‘main’:
+operations_tests.c:43:50: error: ‘fl’ undeclared (first use in this function); did you mean ‘f2’?
+ printf("\n%.1f (%ld bytes) %c %.2f (%ld bytes)", fl, sizeof(fl), '%', f2, sizeof (f2));
+                                                  ^~
+                                                  f2
+operations_tests.c:43:50: note: each undeclared identifier is reported only once for each function it appears in
+operations_tests.c:45:37: error: invalid operands to binary % (have ‘float’ and ‘float’)
+ printf(" = %.1f (%ld bytes)\n\n", f1%f2, sizeof(f1%f2));
+                                     ^
+operations_tests.c:45:51: error: invalid operands to binary % (have ‘float’ and ‘float’)
+ printf(" = %.1f (%ld bytes)\n\n", f1%f2, sizeof(f1%f2));
+                                                   ^
+user@epk428-9:~/RTR105$ 
 
